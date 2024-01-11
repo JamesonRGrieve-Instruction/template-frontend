@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "consistent-return": "error",
+    "curly": "error",
+    "eqeqeq": "error",
+    "no-alert": "error",
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-else-return": "error",
+    "no-multi-spaces": "error",
+    "no-multiple-empty-lines": "error",
+    "no-trailing-spaces": "error",
+    "no-unused-vars": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "prettier/prettier": "warn"
+  }
+}
