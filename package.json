@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "lint": "prettier --check ./src && html-validate ./src && stylelint ./src/**/*.css && eslint --ext .js ./src"
+    "lint": "prettier --check ./src && html-validate ./src && stylelint ./src/**/*.css && eslint --ext .js ./src",
+    "fix": "prettier --write ./src"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
